@@ -1,0 +1,358 @@
+/* NAVBAR */
+.navbar {
+  background: var(--primary-color);
+  color: #fff;
+  height: 70px;
+  position: relative;
+}
+
+.navbar img {
+  height: 50px;
+  width: auto;
+}
+
+.logo {
+  display: flex;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: var(--light-color);
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: #fff 2px solid;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 55px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-hamburger {
+  position: -100%;
+}
+
+.navbar-hamburger.show {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.93);
+}
+
+.navbar-hamburger a {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Showcase */
+
+.showcase {
+  height: 590px;
+  background: url(./../img/showcase-darkened1.jpg) no-repeat top center/cover;
+  width: auto;
+}
+
+.showcase h1,
+.showcase p {
+  color: #fff;
+}
+
+.showcase .showcase-form h1 {
+  color: #333;
+}
+
+.showcase .grid {
+  grid-template-columns: 5fr 3fr;
+}
+
+.showcase .call {
+  height: 60px;
+  justify-content: space-between;
+}
+
+.showcase .showcase-form {
+  height: 550px;
+}
+
+.showcase .showcase-form input[type="text"],
+.showcase .showcase-form input[type="email"],
+.showcase .showcase-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  font-size: 1rem;
+}
+
+.showcase .showcase-form textarea {
+  resize: none;
+}
+
+/* Services */
+
+.services {
+  height: 500px;
+}
+
+.services .services-header {
+  margin: 0 auto;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.services .services-content {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.services .services-content .service-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.services .services-content .service-item h3 {
+  font-size: 1.4rem;
+}
+
+.services .services-content .service-item i {
+  color: var(--primary-color);
+  margin: 10px 0;
+}
+
+.services .services-content .service-item a {
+  margin: 0 auto;
+}
+
+/* Team */
+
+.team {
+  height: 550px;
+}
+
+.team .team-header {
+  margin: 0 auto;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.team .team-content {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.team .team-content img {
+  height: 90px;
+  width: auto;
+  border-radius: 50%;
+}
+
+/* Testimonials */
+
+.testimonials .testimonials-header {
+  margin: 0 auto;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.testimonials .testimonials-content {
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* Services Page */
+
+.services-page .services-header {
+  margin: 0 auto;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.services-head .container i {
+  font-size: 10rem;
+  justify-self: flex-end;
+}
+
+.services-page {
+  height: auto;
+  text-align: center;
+}
+
+.services-page i {
+  color: var(--primary-color);
+  font-size: 7rem;
+}
+
+.services-page p {
+  text-align: left;
+}
+
+/* Contact Page */
+
+.contact-page .contact-header {
+  margin: 0 auto;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.contact-page .contact-content i {
+  color: var(--primary-color);
+  justify-self: flex-end;
+}
+
+.contact-page {
+  height: auto;
+  text-align: center;
+}
+
+.contact-page .contact-content {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.contact-page p {
+  text-align: left;
+}
+
+.contact-page .contact-content .localization {
+  font-size: 5rem;
+}
+
+.contact-page .contact-content .contact-coords-bottom {
+  grid-template-columns: 4fr 5fr;
+  gap: 0.1rem;
+}
+
+.contact-page .services-content .map img {
+  height: 100%;
+  width: auto;
+}
+
+.showcase .showcase-form {
+  height: 550px;
+}
+
+.contact-page .contact-content .contact-coords-bottom input[type="text"],
+.contact-page .contact-content .contact-coords-bottom input[type="email"],
+.contact-page .contact-content .contact-coords-bottom textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  font-size: 1rem;
+}
+
+.contact-page .contact-content .contact-coords-bottom textarea {
+  resize: none;
+}
+
+.contact-page .contact-content .schedules {
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* Footer */
+
+.footer .social a {
+  margin: 0 10px;
+}
+
+.footer .logo img {
+  height: 60px;
+  width: auto;
+}
+
+.coding {
+  height: 100px;
+}
+
+.coding .logo {
+  justify-content: right;
+  align-items: center;
+}
+
+.coding .logo img {
+  height: 80px;
+  width: auto;
+}
+
+@media (max-width: 940px) {
+  .navbar .logo h2 span {
+    display: none;
+  }
+}
+
+/* Tablets & under */
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .logo h2 span {
+    display: inline;
+  }
+
+  .navbar nav {
+    display: none;
+  }
+
+  .grid,
+  .showcase .grid,
+  .services .grid,
+  .team .grid,
+  .footer .grid,
+  .collapse-header .grid,
+  .contact-page contact-coords .grid,
+  .contact-page .contact-content .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .testimonials .testimonials-content {
+    flex-wrap: wrap;
+  }
+
+  .showcase,
+  .services,
+  .team,
+  .testimonials,
+  .collapse-header {
+    height: auto;
+    text-align: center;
+    margin: auto;
+  }
+
+  .showcase-text {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .showcase-form {
+    justify-self: center;
+    margin: auto;
+  }
+
+  .container {
+    width: 80%;
+  }
+}
