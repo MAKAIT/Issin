@@ -42,12 +42,15 @@
 }
 
 .navbar-hamburger {
-  position: -100%;
+  display: none;
+  top: -100%;
 }
 
 .navbar-hamburger.show {
   position: absolute;
+  display: inline-block;
   width: 100%;
+  top: 70px;
   margin: auto;
   text-align: center;
   z-index: 1;
@@ -55,8 +58,10 @@
 }
 
 .navbar-hamburger a {
+  display: inline-block;
   font-size: 2rem;
   color: #fff;
+  margin: 1.1rem 0;
 }
 
 /* Showcase */
@@ -178,6 +183,10 @@
   align-items: flex-start;
 }
 
+.testimonials .testimonials-content i {
+  color: gold;
+}
+
 /* Services Page */
 
 .services-page .services-header {
@@ -293,13 +302,13 @@
   width: auto;
 }
 
-@media (max-width: 940px) {
-  .navbar .logo h2 span {
+/* Tablets & under */
+
+@media (max-width: 950px) {
+  .navbar .logo span {
     display: none;
   }
 }
-
-/* Tablets & under */
 
 @media (min-width: 768px) {
   .hamburger {
@@ -308,10 +317,6 @@
 }
 
 @media (max-width: 768px) {
-  .navbar .logo h2 span {
-    display: inline;
-  }
-
   .navbar nav {
     display: none;
   }
