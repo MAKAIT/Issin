@@ -63,6 +63,7 @@
   font-size: 2rem;
   color: #fff;
   margin: 1.1rem 0;
+  padding: 0.6rem;
 }
 
 /* Showcase */
@@ -290,16 +291,16 @@
 }
 
 .coding {
-  height: 100px;
+  height: 35px;
 }
 
 .coding .logo {
-  justify-content: right;
+  justify-content: center;
   align-items: center;
 }
 
 .coding .logo img {
-  height: 80px;
+  height: 22px;
   width: auto;
 }
 
